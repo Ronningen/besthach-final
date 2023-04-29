@@ -1,21 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>главная страница data squad</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <div class="text">
+        <h1>Best Hack</h1>
+    </div>
 </head>
 
 <body>
-  <center>
-    <h1>Решение команды data squad</h1>
-    <form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data">
-      Загрузите файл с измерениями:
-      <p>
-        <input name="file" type="file" accept=".parquet">
-        <input name="submit" type="submit" value="Получить предсказание">
-      </p>
-    </form>
-  </center>
+    <center>
+        <form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data">
+            Загрузите файл с измерениями:
+            <p>
+                <!--        <input name="file1" type="file" accept=".parquet">-->
+                <!--        <input name="submit" type="submit" value="Получить предсказание">-->
+                <!--        <a href="" class="gradient-button">Выберите файл</a>-->
+                <!--        <input  href="" class="pressed-button"  type="file" accept=".parquet"></input>-->
+
+            <div class="file-upload-container">
+                <div class="file-upload-text">Выберите файл</div>
+                <input class="file-upload" type="file" name="file" />
+            </div>
+            <div class="file-upload-container">
+                <div class="file-upload-text">Получить предсказание</div>
+                <input class="file-upload" name="submit" type="submit" value="Получить предсказание" />
+            </div>
+
+            </p>
+        </form>
+
+    </center>
 </body>
 
 </html>
