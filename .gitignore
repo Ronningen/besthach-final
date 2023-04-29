@@ -1,0 +1,5 @@
+data
+vscode
+web/tests/*
+web/submit.csv
+web/cgi-bin/__*
