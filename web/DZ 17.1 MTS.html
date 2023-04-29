@@ -5,25 +5,33 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <div class="text">
-        <h1>Best Hack</h1>
-    </div>
+
 </head>
 <body>
 <center>
-<form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data">
-    Загрузите файл с измерениями:
+    <div class="text" style="padding-top: 90px;">
+        <div style="font-size: 500%;">
+        <p>Best Hack</p>
+        </div>
+    </div>
+    <div class="text" >
+        <div >
+            <form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data">
+            <h2>Загрузите файл с измерениями:</h2>
+        <div>
+
+    </div>
     <p>
 <!--        <input name="file1" type="file" accept=".parquet">-->
 <!--        <input name="submit" type="submit" value="Получить предсказание">-->
 <!--        <a href="" class="gradient-button">Выберите файл</a>-->
 <!--        <input  href="" class="pressed-button"  type="file" accept=".parquet"></input>-->
 
-    <div class="file-upload-container">
+    <div class="file-upload-container" id="first">
         <div class="file-upload-text">Выберите файл</div>
         <input class="file-upload" type="file" name="file" />
     </div>
-    <div class="file-upload-container">
+    <div class="file-upload-container" id="second">
         <div class="file-upload-text">Получить предсказание</div>
         <input class="file-upload" name="submit" type="submit" value="Получить предсказание" />
     </div>
