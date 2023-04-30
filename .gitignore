@@ -1,7 +1,9 @@
-data
+
 .vscode
 web/tests/*
 web/submit.csv
 web/cgi-bin/__*
 **.joblib
 .DS_store
+data/*
+!data/solution.ipynb
