@@ -3,35 +3,48 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./file_button.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <div class="text">
-        <h1>Best Hack</h1>
-    </div>
+
 </head>
 
 <body>
     <center>
-        <form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data">
-            Загрузите файл с измерениями:
-            <p>
-                <!--        <input name="file1" type="file" accept=".parquet">-->
-                <!--        <input name="submit" type="submit" value="Получить предсказание">-->
-                <!--        <a href="" class="gradient-button">Выберите файл</a>-->
-                <!--        <input  href="" class="pressed-button"  type="file" accept=".parquet"></input>-->
+        <div class="text"">
 
-            <div class="file-upload-container">
-                <div class="file-upload-text">Выберите файл</div>
-                <input class="file-upload" type="file" name="file" />
-            </div>
-            <div class="file-upload-container">
-                <div class="file-upload-text">Получить предсказание</div>
-                <input class="file-upload" name="submit" type="submit" value="Получить предсказание" />
-            </div>
+            <img src="../ZAG-K.png">
 
-            </p>
-        </form>
+        </div>
+        <div class="text">
+            <div>
+                <form action="cgi-bin/resultpage.py" method="POST" enctype="multipart/form-data" id="mform">
+                    <div style="font-size: 100%;">
+                        <h2>Решение финала Best Hack:</h2>
+                    </div>
+                    <div>
+
+                    </div>
+                    <p>
+                        <!--        <input name="file1" type="file" accept=".parquet">-->
+                        <!--        <input name="submit" type="submit" value="Получить предсказание">-->
+                        <!--        <a href="" class="gradient-button">Выберите файл</a>-->
+                        <!--        <input  href="" class="pressed-button"  type="file" accept=".parquet"></input>-->
+
+                    <div class="file-upload-container" id="first">
+                        <div class="file-upload-text">   Выберите файл   </div>
+                        <input href="" class="file-upload" name="file" type="file" accept=".parquet" id="file_button" onclick="push();"/>
+                    </div>
+                    <div class="file-upload-container" id="second">
+                        <div class="file-upload-text">Получить предсказание</div>
+                        <input class="file-upload" name="submit" type="submit" value="Получить предсказание" id="submit_button"/>
+                    </div>
+
+                    </p>
+                </form>
 
     </center>
 </body>

@@ -1,5 +1,7 @@
 data
-vscode
+.vscode
 web/tests/*
 web/submit.csv
 web/cgi-bin/__*
+**.joblib
+.DS_store

@@ -1,16 +1,31 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+
+
 body{
 
 background: url("../photo_2023-04-30_01-24-33.jpg") center  ;
 
-        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: table-cell;
+        vertical-align: middle;
 
 }
-
 
 .text {
     font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
-      color: white;
+      color: rgba(254, 249, 233, 1);
 }
 
 TABLE {
@@ -78,8 +93,8 @@ TABLE {
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+  letter-spacing: 1px;
+  background-image: linear-gradient(45deg, #ff6c00 0%, #ff9140 50%, #ffae73 100%);
   background-position: 100% 0;
   background-size: 200% 200%;
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
@@ -93,8 +108,10 @@ TABLE {
 
 /* Стили для текста кнопки */
 .file-upload-text {
+  font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
   position: relative;
-  color: white;
+  color: rgba(254, 249, 233, 1);
 }
 
 /* Стили для элемента input */
@@ -105,17 +122,17 @@ TABLE {
   width: 100%;
   height: 100%;
   opacity: 0;
-  cursor: pointer;
+  cursor: text;
 }
 
 #first{
 	top: 7px;
 
+  opacity: 1;
 }
 
 #second{
 	top: 7px;
-
 }
 
 #third{

@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html>
-<head><title>просмотр результата - data squad</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
-<link rel="stylesheet" type="text/css" href="./style_second_page.css">
-<style> table, th, td {border:1px solid black;}</style>
+
+<head>
+  <title>просмотр результата - data squad</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+</style>
+
 <body>
   <center>
-    <div class="text" >
+    <div class="text">
       <div style="font-size: 300%;">
         <p>ПРЕДСКАЗАНИЕ</p>
       </div>
-        <center>
-    <div style="overflow-y: auto; max-height: 60%;">
-      <table BGCOLOR="#358f81"><tr>
-        <th> wagnum </th>
-        <th> ts_id </th>
-        <th> target </th>
-      </tr>
-        <tr>
-          <td> 0 </td>
-          <td> 1 </td>
-          <td> 27027.6 </td>
-        </tr>
-        <tr>
-          <td> 1 </td>
-          <td> 2 </td>
-          <td> 42469.6 </td>
-        </tr>
-        <tr>
-          <td> 4 </td>
-          <td> 1 </td>
-          <td> 29366.6 </td>
-        </tr>
-        <tr>
-          <td> 7 </td>
-          <td> 1 </td>
-          <td> 56106.5 </td>
-        </tr>
-        <tr>
-          <td> 13 </td>
-          <td> 5 </td>
-          <td> 36775.9 </td>
-        </tr>
-        <tr>
-          <td> 23 </td>
-          <td> 1 </td>
-          <td> 14450.9 </td>
-        </tr>
-        <tr>
-          <td> 30 </td>
-          <td> 1 </td>
-          <td> 16544.7 </td>
-        </tr>
-        <tr>
-          <td> 33 </td>
-          <td> 2 </td>
-          <td> 14017.8 </td>
-        </tr>
-        <tr>
-          <td> 34 </td>
-          <td> 1 </td>
-          <td> 15853.0 </td>
-        </tr>
-        <tr>
-      </table>
-    </div>
-  </center>
-  <center>
-      <p>
-
-
-
-        <div target="_blank" href="download.py"download="submit.csv" class="file-upload-container" id="fours">
-          <div class="file-upload-text">Скачать результат</div>
-          <input class="file-upload"target="_blank" href="download.py"download="submit.csv" />
+      <center>
+        <div style="overflow-y: auto; max-height: 60%;">
+          <table BGCOLOR="#358f81">
+            <tr>
+              <th> wagnum </th>
+              <th> ts_id </th>
+              <th> target </th>
+            </tr>
+            <tr>
+              <td> 0 </td>
+              <td> 1 </td>
+              <td> 27027.6 </td>
+            </tr>
+            <tr>
+              <td> 1 </td>
+              <td> 2 </td>
+              <td> 42469.6 </td>
+            </tr>
+            <tr>
+              <td> 4 </td>
+              <td> 1 </td>
+              <td> 29366.6 </td>
+            </tr>
+            <tr>
+              <td> 7 </td>
+              <td> 1 </td>
+              <td> 56106.5 </td>
+            </tr>
+            <tr>
+              <td> 13 </td>
+              <td> 5 </td>
+              <td> 36775.9 </td>
+            </tr>
+            <tr>
+              <td> 23 </td>
+              <td> 1 </td>
+              <td> 14450.9 </td>
+            </tr>
+            <tr>
+              <td> 30 </td>
+              <td> 1 </td>
+              <td> 16544.7 </td>
+            </tr>
+            <tr>
+              <td> 33 </td>
+              <td> 2 </td>
+              <td> 14017.8 </td>
+            </tr>
+            <tr>
+              <td> 34 </td>
+              <td> 1 </td>
+              <td> 15853.0 </td>
+            </tr>
+            <tr>
+          </table>
         </div>
+      </center>
+      <center>
 
+        <a target="_blank" href="download.py" download="submit.csv" style="text-decoration: none">
+          <div class="file-upload-container" id="fours">
+            <div class="file-upload-text">Скачать результат</div>
+          </div>
+        </a>
 
-
-
-        <div href=" ../index.html " class="file-upload-container" id="five">
+        <div class="file-upload-container" id="five">
           <div class="file-upload-text">Назад</div>
-          <input class="file-upload" href=" ../index.html " />
+          <a class="file-upload" href=" http://localhost:8000/index.html "></a>
         </div>
 
-
-
-      </p>
-  </center>
+      </center>
 </body>
+
 </html>
