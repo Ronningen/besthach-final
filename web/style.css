@@ -1,4 +1,3 @@
-
 html, body {
   height: 100%;
   width: 100%;
@@ -9,34 +8,43 @@ html {
   margin: auto;
 }
 
+body {
+  background: url("../media/photo_2023-04-30_01-24-33.jpg") center;
 
-
-body{
-
-background: url("../photo_2023-04-30_01-24-33.jpg") center  ;
-
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        display: table-cell;
-        vertical-align: middle;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: table-cell;
+  vertical-align: middle;
 
 }
 
 .text {
-    font-family: 'Montserrat', sans-serif;
-      text-transform: uppercase;
-      color: rgba(254, 249, 233, 1);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: rgba(254, 249, 233, 1);
+}
+
+.teamtext {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #ffae73;
 }
 
 TABLE {
-    width: 500px; /* Ширина таблицы */
-    border-collapse: collapse; /* Убираем двойные линии между ячейками */
-    }
-    TD, TH{
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid maroon; /* Параметры рамки */
-    text-align: left; /* Выравнивание по левому краю */
-   }
+  width: 410px;
+  /* Ширина таблицы */
+  border-collapse: collapse;
+  /* Убираем двойные линии между ячейками */
+}
+
+TD, TH {
+  padding: 5px;
+  /* Поля вокруг содержимого таблицы */
+  border: 1px solid maroon;
+  /* Параметры рамки */
+  text-align: left;
+  /* Выравнивание по левому краю */
+}
 
 
 .gradient-button {
@@ -55,6 +63,7 @@ TABLE {
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
   transition: .5s;
 }
+
 .gradient-button:hover {
   box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
   background-position: 0 0;
@@ -78,6 +87,7 @@ TABLE {
   box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
   transition: .5s;
 }
+
 .pressed-button:hover {
   box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
   background-position: 0 0;
@@ -100,6 +110,7 @@ TABLE {
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
   transition: .5s;
 }
+
 .file-upload-container:hover {
   box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
   background-position: 0 0;
@@ -109,7 +120,7 @@ TABLE {
 /* Стили для текста кнопки */
 .file-upload-text {
   font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+  text-transform: uppercase;
   position: relative;
   color: rgba(254, 249, 233, 1);
 }
@@ -125,17 +136,17 @@ TABLE {
   cursor: text;
 }
 
-#first{
-	top: 7px;
+#first {
+  top: 7px;
 
   opacity: 1;
 }
 
-#second{
-	top: 7px;
+#second {
+  top: 7px;
 }
 
-#third{
-	top: px;
+#third {
+  top: px;
 
 }

@@ -1,9 +1,8 @@
-
 .vscode
-web/tests/*
+.DS_store
+web/CACHE/*
 web/submit.csv
 web/cgi-bin/__*
 **.joblib
-.DS_store
 data/*
 !data/solution.ipynb
