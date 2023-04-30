@@ -1,3 +1,5 @@
 SUBMIT_PATH = "CACHE/submit.csv"
 TESTS_DIR = "CACHE"
-MAIN_PAGE = "../index.html"
+MAIN_PAGE = "/index.html"
+MODEL_PATH = "models-f/final_model_41.joblib"
+PCA_PATH = "models-f/pca_41.joblib"

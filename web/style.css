@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: url("../media/photo_2023-04-30_01-24-33.jpg") center;
+  background: url("/media/photo_2023-04-30_01-24-33.jpg") center;
 
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -37,12 +37,21 @@ TABLE {
   /* Убираем двойные линии между ячейками */
 }
 
-TD, TH {
+TD {
   padding: 5px;
   /* Поля вокруг содержимого таблицы */
   border: 1px solid maroon;
   /* Параметры рамки */
-  text-align: left;
+  text-align: center;
+  /* Выравнивание по левому краю */
+}
+
+TH {
+  padding: 5px;
+  /* Поля вокруг содержимого таблицы */
+  border: 1px solid maroon;
+  /* Параметры рамки */
+  text-align: center;
   /* Выравнивание по левому краю */
 }
 
