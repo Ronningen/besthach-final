@@ -1,12 +1,16 @@
 body{
-background: url("../FON1.jpg") center ;
-no-repeat;
+
+background: url("../photo_2023-04-30_01-24-33.jpg") center  ;
+
+        background-size: cover;
 
 }
 
 
 .text {
     font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      color: white;
 }
 
 TABLE {
@@ -105,12 +109,12 @@ TABLE {
 }
 
 #first{
-	top: 1px;
+	top: 7px;
 
 }
 
 #second{
-	top: 1px;
+	top: 7px;
 
 }
 
