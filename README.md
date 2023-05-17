@@ -2,9 +2,7 @@
 
 The solution for final of bestHack by data squad team
 
-You can access it here: http://95.183.10.131 till 30.04.2023 21:15
-
-Or you can install and run it at localhost:
+You can install and run it at localhost:
 
 ***
 
